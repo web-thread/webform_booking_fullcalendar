@@ -1,0 +1,17 @@
+calendar-display:
+  js:
+    https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.js: { type: external, minified: true }
+    js/booking-calendar.js: {}
+  css:
+    theme:
+      css/booking-calendar.css: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+
+form-autofill:
+  js:
+    js/booking-autofill.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery

@@ -1,0 +1,7 @@
+webform_booking_fullcalendar.settings:
+  path: '/admin/config/system/webform-booking-fullcalendar'
+  defaults:
+    _form: '\Drupal\webform_booking_fullcalendar\Form\SettingsForm'
+    _title: 'Webform Booking FullCalendar Settings'
+  requirements:
+    _permission: 'administer site configuration'

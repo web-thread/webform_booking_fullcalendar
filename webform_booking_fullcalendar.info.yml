@@ -1,0 +1,10 @@
+name: 'Webform Booking FullCalendar'
+type: module
+description: 'Provides an interactive FullCalendar administrative dashboard and auto-selection features for the Webform Booking module. <a href="/admin/config/system/webform-booking-fullcalendar">Configure FullCalendar Settings here</a>.'
+core_version_requirement: ^11
+package: Webform
+configure: webform_booking_fullcalendar.settings
+dependencies:
+  - drupal:views
+  - webform:webform
+  - webform_booking:webform_booking

@@ -1,0 +1,5 @@
+webform_booking_fullcalendar.settings:
+  title: 'Webform Booking FullCalendar'
+  description: 'Configure settings for the booking calendar.'
+  parent: system.admin_config_system
+  route_name: webform_booking_fullcalendar.settings
